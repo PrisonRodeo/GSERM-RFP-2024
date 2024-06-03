@@ -1,0 +1,13 @@
+ID	Year	Female	PresVote	PID	Approve
+   1      1998   female  clinton    dem      3
+   1      2000   female  clinton    dem      3
+   1      2002   female   bush      dem      5
+   1      2004   female   bush      dem      3
+   2      1998    male   clinton    gop      2
+   2      2000    male   clinton    gop      1
+   2      2002    male    bush      gop      4
+   2      2004    male    bush      gop      3
+   3      1998    male   clinton    gop      2
+   3      2000    male   clinton    gop      2
+   3      2002    male    bush      gop      4
+   3      2004    male    bush      dem      1

@@ -1,0 +1,7 @@
+StartDate,EndDate,Status,IPAddress,Progress,Duration (in seconds),RecordedDate,ResponseId,LocationLatitude,LocationLongitude,Measurement Models,Text / LLMs,Panel / TSCS,Causal Inference,Sample Selection,Survival Analysis,Extended GLMs
+6/19/23 3:16,6/19/23 3:16,IP Address,130.82.28.191,100,28,6/19/23 3:16,R_vTc7SSbAaX2kF57,47.4234,9.3696,5,1,7,3,4,6,2
+6/19/23 3:32,6/19/23 3:41,IP Address,130.82.11.145,100,586,6/19/23 3:41,R_1rw6qsrBnrvaYIY,47.4234,9.3696,2,6,1,3,4,5,7
+6/19/23 4:08,6/19/23 4:09,IP Address,130.82.25.101,100,103,6/19/23 4:09,R_2rvKlhSJBPSQMps,47.4234,9.3696,1,5,7,4,3,2,6
+6/19/23 4:10,6/19/23 4:11,IP Address,46.253.189.63,100,78,6/19/23 4:11,R_1MTkUFPCD1ZYNKe,47.5586,8.4693,4,5,7,6,3,1,2
+6/19/23 4:39,6/19/23 4:41,IP Address,130.82.28.191,100,70,6/19/23 4:41,R_1daUHMSWvfWut6L,47.4234,9.3696,7,1,6,2,4,5,3
+6/19/23 4:07,6/19/23 4:41,IP Address,130.82.25.80,100,2020,6/19/23 4:41,R_suN0mSuHqiMTSrn,47.4234,9.3696,6,3,7,4,2,1,5
