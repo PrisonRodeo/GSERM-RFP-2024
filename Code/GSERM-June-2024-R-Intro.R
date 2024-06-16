@@ -13,7 +13,7 @@
 #
 # File initially created June 11, 2021
 #
-# File last updated June 3, 2024
+# File last updated June 16, 2024
 #
 # =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 # OBJECTS                                      ####
@@ -205,7 +205,7 @@ str(VB)
 # menu option above, or by using "setwd". So, 
 # for example:
 
-setwd("~/Dropbox (Personal)/GSERM/Panel-2024")
+setwd("~/Dropbox (Personal)/GSERM/RFP2024")
 
 # Reading the data is then easy:
 
