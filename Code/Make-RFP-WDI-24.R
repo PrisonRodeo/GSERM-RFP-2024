@@ -180,4 +180,22 @@ DayOne<-merge(DayOne,POLITY,by=c("ISO3"),all.x=TRUE,all.y=FALSE)
 write_csv(DayOne,"WDI-2018-Day-One-24.csv") # write to CSV file
 
 #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+# Day Two: Cellphones and wealth...
+#
+# This one is just bivariate, so it's really 
+# very small
+
+DayTwo<-with(WDI2018, data.frame(ISO3=ISO3,Country=country,
+                                 GDPPerCapita=GDPPerCapita,
+                                 MobileCellSubscriptions=MobileCellSubscriptions))
+
+# Delete missing data:
+
+DayTwo<-DayTwo[complete.cases(DayTwo),]
+
+# aaaand write it to a file:
+
+write_csv(DayTwo,"WDI-2018-Day-Two-24.csv")
+
+#-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
