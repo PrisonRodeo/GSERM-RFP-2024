@@ -18,7 +18,8 @@
 # it if it is not, and then (c) loads each of them:
 
 P<-c("readr","car","psych","lattice","arm","plotMElm",
-     "stargazer","modelsummary","marginaleffects")
+     "stargazer","modelsummary","marginaleffects",
+     "ggplot2")
 
 for (i in 1:length(P)) {
   ifelse(!require(P[i],character.only=TRUE),install.packages(P[i]),
@@ -464,6 +465,18 @@ wireframe(hats~grid$RConserv*grid$ClintonConserv,
           scales=list(arrows=FALSE,col="black"),
           zoom=0.85,pretty=TRUE,
           col.regions=colorRampPalette(c("blue","red"))(100))
+dev.off()
+
+# Predictions using -plot_predictions- in the
+# -marginaleffects- package (see the documentation
+# for details):
+
+pdf("MarginalEffectsPreds-24.pdf",7,5)
+p<-plot_predictions(fit2,condition=c("ClintonConserv","RConserv")) +
+   theme_classic() +
+   labs(x = "Clinton's Conservatism",
+        y = "Predicted Clinton Thermometer")
+p
 dev.off()
 
 #=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
