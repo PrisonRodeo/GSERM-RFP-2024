@@ -1,0 +1,8 @@
+Start Date,End Date,Duration (in seconds),Recorded Date,Response ID,Location Latitude,Location Longitude,Measurement Models,Analysis of Text / LLMs, Panel / TSCS Models,Causal Inference,Sample Selection Models,Survival Analysis,Extended GLMs,Bayesian Statistics
+6/17/24 3:53,6/17/24 3:54,93,6/17/24 3:54,R_26lQldw20ZZmbhn,47.3682,8.5671,6,1,2,4,7,5,8,3
+6/18/24 2:09,6/18/24 2:10,37,6/18/24 2:10,R_84crWsW7LqvYwt0,47.3857,8.5348,6,1,8,7,4,5,2,3
+6/18/24 3:11,6/18/24 3:21,576,6/18/24 3:21,R_8254EvLzq3mKXRz,47.5586,8.4693,5,1,8,3,7,2,6,4
+6/18/24 3:25,6/18/24 3:27,131,6/18/24 3:27,R_210GnpACwegM6Dr,47.4338,9.3612,5,1,7,8,4,2,6,3
+6/18/24 3:27,6/18/24 3:28,21,6/18/24 3:28,R_2FFH1s0lAtDz9Na,47.4338,9.3612,,,,,,,,
+6/18/24 3:38,6/18/24 3:40,130,6/18/24 3:40,R_8Jb0P9d86PXF7wJ,47.4338,9.3612,7,1,6,5,3,4,8,2
+6/19/24 3:17,6/19/24 3:17,29,6/19/24 3:17,R_2lJnRikpmeYYJI2,47.5586,8.4693,2,4,6,1,3,5,7,8
